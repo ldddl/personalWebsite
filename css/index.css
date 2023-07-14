@@ -1,0 +1,65 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Bruno Ace SC', cursive;
+}
+img{
+	vertical-align: middle; 
+}
+a {
+  text-decoration: none;
+}
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+nav{
+  padding-top: 40px;
+  padding-bottom: 24px;
+  background-color: #000;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  color: #D1D1D1;
+  line-height: 150%;
+}
+header{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: #000;
+  display: flex;
+}
+.people-img{
+  max-width: 636px;
+}
+header li h2{
+  color: #D1D1D1;
+  font-size: 64px;
+  line-height: 150%; /* 96px */
+}
+header li:nth-child(3){
+  text-align: right;
+  color: #00FFA3;
+  font-size: 128px;
+  line-height: 150%; /* 192px */
+}
+.header-content{
+  display: flex;
+  align-items: center;
+}
+.arrow-outward-img{
+  width: 24px;
+}
+.arrow-outward-a{
+  border-radius: 32px;
+  background: #FFF;
+  padding: 12px 24px;
+  max-width: 185px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
