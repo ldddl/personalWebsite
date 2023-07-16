@@ -64,6 +64,9 @@ header li:nth-child(3) {
   display: flex;
   align-items: center;
 }
+.arrow-outward-a p{
+  color: #000;
+}
 .introduction {
   background: no-repeat center center
     url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
