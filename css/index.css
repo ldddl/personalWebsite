@@ -134,3 +134,102 @@ h4 {
   font-size: 24px;
   line-height: 150%;
 }
+.contact-me{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact-left{
+  display: flex;
+  align-items: center;
+}
+.contact-left img{
+  max-width: 100px;
+}
+.contact-me h2{
+  color: #FFF;
+  font-size: 64px;
+  line-height: 150%; /* 96px */
+  margin-right: 16px;
+}
+.contact-right{
+  max-width: 526px;
+  display: flex;
+  justify-content: space-between;
+} 
+.contact-right img{
+  max-width: 162px;
+}
+.my-projects{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.my-projects-h2{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 16px;
+}
+.my-projects h2{
+  width: 746px;
+  color: #000;
+  font-size: 64px;
+  line-height: 150%;
+}
+.my-projects-content{
+  display: flex;
+  justify-content: space-between;
+}
+.content-right-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.content-right{
+  max-width: 856px;
+}
+.top-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-message-p{
+  max-width: 636px;
+}
+.top-message-a{
+  max-width: 185px;
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.top-message-a-p{
+  color: #FFF;
+  font-size: 16px;
+  line-height: 150%;
+}
+.rectangle2010{
+  max-width: 416px;
+}
+.rectangle2014{
+  max-width: 306px;
+}
+.rectangle2029{
+  max-width: 526px;
+}
+.rectangle2015{
+  max-width: 196px;
+}
+footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #000;
+}
+.footer-p{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+}
