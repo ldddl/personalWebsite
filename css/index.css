@@ -28,6 +28,9 @@ nav ul {
 nav li {
   color: #d1d1d1;
 }
+nav ul a{
+  color: #d1d1d1;
+}
 header {
   padding-top: 72px;
   padding-bottom: 72px;
