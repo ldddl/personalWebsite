@@ -5,12 +5,16 @@
 }
 body {
   font-family: "Bruno Ace SC", cursive;
+  line-height: 150%;
 }
 img {
   vertical-align: middle;
 }
 a {
   text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
 }
 .container {
   max-width: 1296px;
@@ -40,6 +44,9 @@ header {
   padding-top: 72px;
   padding-bottom: 72px;
   background-color: #000;
+
+}
+.header{
   display: flex;
 }
 .people-img {
@@ -86,12 +93,10 @@ header li:nth-child(3) {
 }
 .introduction h1 {
   font-size: 64px;
-  line-height: 150%; /* 96px */
   margin-bottom: 36px;
 }
 .introduction p {
   font-size: 24px;
-  line-height: 150%; /* 36px */
   margin-bottom: 32px;
 }
 .introduction-content {
@@ -132,18 +137,15 @@ header li:nth-child(3) {
 .about-item h3,
 h4 {
   font-size: 20px;
-  line-height: 150%;
   margin-bottom: 4px;
 }
 .about-right h2 {
   font-size: 64px;
-  line-height: 150%; /* 96px */
   margin-bottom: 36px;
 }
 .about-right-p {
   max-width: 526px;
   font-size: 24px;
-  line-height: 150%;
 }
 .contact-me{
   display: flex;
@@ -162,7 +164,6 @@ h4 {
 .contact-me h2{
   color: #FFF;
   font-size: 64px;
-  line-height: 150%; /* 96px */
   margin-right: 16px;
 }
 .contact-right{
@@ -186,7 +187,6 @@ h4 {
   width: 746px;
   color: #000;
   font-size: 64px;
-  line-height: 150%;
 }
 .my-projects-content{
   display: flex;
@@ -219,7 +219,6 @@ h4 {
 .top-message-a-p{
   color: #FFF;
   font-size: 16px;
-  line-height: 150%;
 }
 .rectangle2010{
   max-width: 416px;
@@ -242,5 +241,4 @@ footer{
   color: #FFF;
   text-align: center;
   font-size: 16px;
-  line-height: 150%; /* 24px */
 }
